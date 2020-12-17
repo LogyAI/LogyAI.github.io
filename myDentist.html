@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+
+
+<style>
+    *{
+       font-family: 'Poppins', sans-serif; 
+    }
+    body{
+      background: rgb(250, 250, 250);
+     
+    }
+    #contentx img{
+      width: 100%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    #brandimg{
+      font-size: 80px;
+    }
+    p{
+      font-size: 2vh;
+    }
+    #viewcar{
+      border-radius: 0px 0px 50px 50px;
+      height: 40vh;
+    }
+    #viewcar img{
+      min-height: 100%;
+      object-fit: cover;
+    }
+    #viewcar2{
+      border-radius: 25px;
+    }
+    #minright{
+      font-size: 10px;
+      background: rgba(0, 132, 255, 0.8);
+    }
+    #biglogy{
+      float: right;
+    }
+    #infi{
+      font-size: 8vh;
+    }
+    #foothot{
+      font-family: 'Raleway', sans-serif;
+    }
+    #footbot{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .carousel .carousel-control-prev-icon {
+    background-image: none;
+    }
+    .carousel .carousel-control-next-icon {
+    background-image: none;
+    }
+    .carousel-indicators li{
+      background-color: rgba(245, 245, 220, 0);
+    }
+    #testimage{
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 20px;
+    }
+    #headertext{
+      font-size: 60px;
+    }
+    @media screen and (max-width: 767px) {
+      #headertext{
+      font-size: 30px;
+    }
+       #viewcar {
+          height: 50vh;
+        }
+       #viewcar2 {
+          border-radius: 15px;
+        }
+        #biglogy{
+          float: left;
+        }
+        #infi{
+          font-size: 5vh;
+        }
+        #brandimg{
+      font-size: 36px;
+    }
+        #testimage{
+      height: 100px;
+      border-radius: 10px;
+    }
+    #mobnotbr{
+      display: none;
+    }
+    #desch4{
+      font-size: 16px;
+      text-align: justify;
+    }
+      }
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logy.AI</title>
+</head>
+<body>
+
+
+
+    <!--Navbar-->
+    <nav class="sticky-top" >
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="box-shadow: none;border-bottom: solid 5px rgb(53, 138, 235);">
+        <div class="container ">
+        
+            <!-- Navbar brand -->
+            <a class="navbar-brand p-0" href="https://logy.ai/" style="font-family: 'Poppins', sans-serif;font-weight: 600;font-size: 30px;">Logy.<span style="color: #428bca;">AI</span></a>
+          
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+              aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+          
+              <!-- Links -->
+              <ul class="mr-auto"></ul>
+              <!-- Links -->
+          
+              <form class="form-inline p-0 m-0">
+                <div class="md-form my-0 mx-3 ">
+                  <a href="https://logy.ai/" class="" style="font-weight:500 ;font-size: 12px;color: #5697d0;">HOME</a>
+                </div>
+                <div class="md-form my-0 mx-3 ">
+                  <a href="/articles/" class="text-white" style="font-weight:500 ;font-size: 12px;">ARTICLES</a>
+                </div>
+              </form>
+            </div>
+            <!-- Collapsible content -->
+          
+        </div>
+        </nav>
+    </nav>
+  <!--/.Navbar-->
+
+
+<div class="bg-dark pb-0">
+  <div class="container mb-0">
+    <div class="row mb-0">
+      <div class="col-md-6 mb-0">
+        <div id="mobnotbr" style="height: 200px;"></div>
+        <br>
+        <br>
+        <h1 id="brandimg" class=" text-white" style="font-weight: 700;">MyDentist.AI</h1>
+        <p class="text-white">POWERED BY <span style="font-weight: 700;">LOGY.<span class="text-primary">AI</span></span></p>
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <h4 class="text-white">Oral health can't wait</h4>
+      </div>
+      <div class="col-md-6 text-center mb-0">
+        <img class="w-75 mb-0" src="assets/img/mock1.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<div style="background: #428bca;height: 15px;"></div>
+<div style="background: #84c5ff;height: 15px;"></div>
+<div class="">
+  <div class="container mb-0">
+    <div class="row mb-0">
+      <div class="col-md-6 text-center p-3">
+        <img class="w-100 p-3" src="assets/img/mock2.png" alt="">
+      </div>
+      <div class="col-md-6 mb-0">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <h1 id="headertext" class=" text-dark" style="font-weight: 700;">MyDentist.AI</h1>
+        <br id="mobnotbr">
+
+        <h4 id="desch4" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro delectus quibusdam praesentium, optio sit exercitationem, odit consequuntur sapiente eaque, velit cupiditate sint qui reprehenderit? Cum expedita quod, dolorum consequatur est repudiandae tempore incidunt, laborum quibusdam perferendis assumenda sit, maxime vero enim error dicta consequuntur aliquid temporibus beatae. Aliquid, maxime.</h4>
+        <br>
+      </div>
+     
+    </div>
+  </div>
+</div>
+<div class="" style="background: #06161B;">
+  <div class="container mb-0">
+    <div class="row mb-0">
+      
+      <div class="col-md-6 mb-0">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <br>
+        <br>
+        <h1 id="headertext" class=" text-white" style="font-weight: 700;">MyDentist.AI</h1>
+        <br id="mobnotbr">
+
+        <h4 id="desch4" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro delectus quibusdam praesentium, optio sit exercitationem, odit consequuntur sapiente eaque, velit cupiditate sint qui reprehenderit? Cum expedita quod, dolorum consequatur est repudiandae tempore incidunt, laborum quibusdam perferendis assumenda sit, maxime vero enim error dicta consequuntur aliquid temporibus beatae. Aliquid, maxime.</h4>
+      </div>
+      <div class="col-md-6 text-center p-3">
+        <img class="w-100 p-3" src="assets/img/mock3.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="">
+  <div class="container mb-0">
+    <div class="row mb-0">
+      <div class="col-md-6 text-center p-3">
+        <img class="w-100 p-3" src="assets/img/mock4.png" alt="">
+      </div>
+      <div class="col-md-6 mb-0">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <br id="mobnotbr">
+        <h1 id="headertext" class=" text-dark" style="font-weight: 700;">MyDentist.AI</h1>
+        <br id="mobnotbr">
+
+        <h4 id="desch4" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro delectus quibusdam praesentium, optio sit exercitationem, odit consequuntur sapiente eaque, velit cupiditate sint qui reprehenderit? Cum expedita quod, dolorum consequatur est repudiandae tempore incidunt, laborum quibusdam perferendis assumenda sit, maxime vero enim error dicta consequuntur aliquid temporibus beatae. Aliquid, maxime.</h4>
+        <br>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<div class="" style="background: #06161B;">
+  <div class="container mb-0">
+    <br id="mobnotbr">
+    <br id="mobnotbr">
+    <br id="mobnotbr">
+    <br>
+    <h1 id="headertext" class=" w-100 text-white" style="font-weight: 700;">Testimonials</h1>
+    <h3 class="text-white">What our clients say</h3>
+    <div class="bg-white w-50" style="height: 2px;"></div>
+    <div class="row mb-0 mt-md-5">
+      
+      <div class="col-md-6 mb-0">
+        <div class="row mt-4">
+          <div class="col-4">
+            <img id="testimage" class="w-100" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div class="col-8 text-white pt-md-4">
+            
+            <h6 class="">Name Surname, <span class="small">title</span></h6>
+            <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "</p>
+          </div>
+        </div> 
+      </div>
+      <div class="col-md-6 mb-0">
+        <div class="row mt-4">
+          <div class="col-4">
+            <img id="testimage" class="w-100" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div class="col-8 text-white pt-md-4">
+            
+            <h6 class="">Name Surname, <span class="small">title</span></h6>
+            <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "</p>
+          </div>
+        </div> 
+      </div>
+      <div class="col-md-6 mb-0">
+        <div class="row mt-4">
+          <div class="col-4">
+            <img id="testimage" class="w-100" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div class="col-8 text-white pt-md-4">
+            
+            <h6 class="">Name Surname, <span class="small">title</span></h6>
+            <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "</p>
+          </div>
+        </div> 
+      </div>
+      <div class="col-md-6 mb-0">
+        <div class="row mt-4">
+          <div class="col-4">
+            <img id="testimage" class="w-100" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+          </div>
+          <div class="col-8 text-white pt-md-4">
+            
+            <h6 class="">Name Surname, <span class="small">title</span></h6>
+            <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "</p>
+          </div>
+        </div> 
+      </div>
+      
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>
+<div class="container">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 id="headertext" class=" w-100 text-dark" style="font-weight: 700;">Our Success Stories</h1>
+    <div class="bg-dark w-50" style="height: 2px;"></div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-8">
+
+        <img class="w-100" src="assets/img/success.jpeg" alt="">
+        <br>
+        <br>
+      </div>
+      <div class="col-md-4">
+        <h6>Edex live <br> [ The new Indian express ]</h6>
+        <h3><strong>‘’Teeth talk:  This Hyderabad start-up is using AI and whatsApp to bring oral hygiene to the fore’’</strong></h3>
+        <br>
+        <a class="bg-dark text-white px-5 py-2 rounded" href="">Read</a>
+      </div>
+    </div>
+    <br>
+    <br>
+    
+    <br id="mobnotbr">
+    <br id="mobnotbr">
+    <br>
+</div>
+
+
+
+
+
+
+
+ <footer class="page-footer font-small unique-color-white text-dark pt-3" style="background: white;">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Logy.AI</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p id="footbot">Build quality Artificial Intelligence with minimum effort and without writing a single line of code.
+                  We help you bring your ideas to reality with user-friendly AI building tools. (Legal name of the company: Nex Fitzap Private Limited)
+                  </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Products</h6>
+              <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p >
+                  <a class="text-primary" id="footbot" href="https://logy.ai/portal.html">Dental AI</a>
+              </p>
+              <p>
+                  <a class="text-primary" id="footbot" href="https://portal.logy.ai/">AutoML Platform</a>
+              </p>
+            <!--  <p>
+                  <a href="#!">Pricing</a>
+              </p> -->
+              
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                  <a class="text-primary" id="footbot" href="https://logy.ai/dentalai_pricing.html">DentalAI Pricing</a>
+              </p>
+              <p>
+                  <a class="text-primary" id="footbot" href="https://logy.ai/privacy.html">Privacy Policy</a>
+              </p>
+              <p>
+                  <a class="text-primary" id="footbot" href="https://logy.ai/terms_and_conditions.html">Terms and Conditions / Cancellation Policy</a>
+              </p>
+              
+              
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Contact</h6>
+              <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p id="footbot">
+                  <i class="fa fa-home mr-3"></i> India / Singapore</p>
+              <p id="footbot">
+                  <i class="fa fa-envelope mr-3"></i> humans@logy.ai</p>
+              <p id="footbot">
+                  <i class="fa fa-phone mr-3"></i> +91 70019 72016</p>
+              
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-dark" style="background: white;" id="footbot"> Copyright ©
+      <a class="text-primary" id="footbot" href="https://logy.ai"> Nex Fitzap Private Limited</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+</body>
+</html>

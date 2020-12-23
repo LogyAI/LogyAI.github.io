@@ -43,6 +43,7 @@
       height: 200px;
       width: 200px;
       border-radius: 20px;
+      background: #428bca !important;
     }
     #contentx img{
       width: 100%;
@@ -219,9 +220,7 @@
 
 
     <br id="mobnotbr">
-    <br id="mobnotbr">
-    <br id="mobnotbr">
-    <br id="mobnotbr">
+
     <div class="row ">
 
       <div class="col-md-6 text-center my-3">
@@ -274,13 +273,16 @@
       </div>
     </div>
     <br>
-    <br id="mobnotbr">
-    <br id="mobnotbr">
+    <div class="text-center">
 
+      <div class="h1 display-2 " style="font-weight: 600;color: #428bca;" id="shiva"><span class="count">1000</span></div>
+      <h4><strong>TESTS COMPLETED</strong></h4>
+    </div>
+<br>
   </div>
   <div class="container text-center">
     <h1 class="" id="headline" style="font-weight: 700;text-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);">MyDentist.AI</h1>
-    <h5>Powered by <strong> Logy.<span style="color: #428bcc;">AI</span> </strong></h5>
+    <h5>Powered by <strong> Logy.<span style="color: #428bca;">AI</span> </strong></h5>
     <br>
     <h4>Because <strong>Oral health can’t wait</strong></h4>
   </div>
@@ -348,7 +350,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <h5 alt="First slide"> <strong>Step 1</strong> </h5>
-              <h3 class="w-75 text-primary" id="stepx"> <strong>Say Hi to MyDentist</strong> </h3>
+              <h3 class="w-75 " style="color: #428bca;" id="stepx"> <strong>Say Hi to MyDentist</strong> </h3>
               <br id="mobnotbr">
               <h5 alt="First slide "> <strong>Step 2</strong> </h5>
               <h3 class="w-75" id="stepx">Share your name, age and other basic details</h3>
@@ -364,7 +366,7 @@
               <h3 class="w-75" id="stepx">Say Hi to MyDentist</h3>
               <br id="mobnotbr">
               <h5 alt="First slide "> <strong>Step 2</strong> </h5>
-              <h3 class="w-75 text-primary" id="stepx"> <strong>Share your name, age and other basic details</strong> </h3>
+              <h3 class="w-75 " style="color: #428bca;" id="stepx"> <strong>Share your name, age and other basic details</strong> </h3>
               <br id="mobnotbr">
               <h5 alt="First slide "> <strong>Step 3</strong> </h5>
               <h3 class="w-75" id="stepx">Send an image of the inside of your mouth</h3>
@@ -380,7 +382,7 @@
               <h3 class="w-75" id="stepx">Share your name, age and other basic details</h3>
               <br id="mobnotbr">
               <h5 alt="First slide "> <strong>Step 3</strong> </h5>
-              <h3 class="w-75 text-primary" id="stepx"> <strong>Send an image of the inside of your mouth</strong> </h3>
+              <h3 class="w-75 " style="color: #428bca;" id="stepx"> <strong>Send an image of the inside of your mouth</strong> </h3>
               <br id="mobnotbr">
             
               <h5 alt="First slide "> <strong>Step 4</strong> </h5>
@@ -399,7 +401,7 @@
               <br id="mobnotbr">
               
               <h5 alt="First slide "> <strong>Step 4</strong> </h5>
-              <h3 class="w-75 text-primary" id="stepx"> <strong>SeGet your report in 60 seconds</strong> </h3>
+              <h3 class="w-75 " style="color: #428bca;" id="stepx"> <strong>Get your report in 60 seconds</strong> </h3>
             </div>
           </div>
           <br>
@@ -420,23 +422,23 @@
             <div class="carousel-item active text-center">
               <img class="d-block w-100" src="assets/img/mock1.png" alt="First slide">
               <br>
-              <h2 class="text-primary w-75 mx-auto" id="stepdet"><strong>Say Hi to MyDentist</strong></h2>
+              <h2 class=" w-75 mx-auto" style="color: #428bca;" id="stepdet"><strong>Say Hi to MyDentist</strong></h2>
               <br>
             </div>
             <div class="carousel-item text-center">
               <img class="d-block w-100" src="assets/img/mock2.png" alt="Second slide">
               <br>
-              <h2 class="text-primary w-75 mx-auto" id="stepdet"><strong>Share your name, age and other basic details</strong></h2>
+              <h2 class=" w-75 mx-auto" style="color: #428bca;" id="stepdet"><strong>Share your name, age and other basic details</strong></h2>
             </div>
             <div class="carousel-item text-center">
               <img class="d-block w-100" src="assets/img/mock3.png" alt="Third slide">
               <br>
-              <h2 class="text-primary w-75 mx-auto" id="stepdet"><strong>Send an image of the inside of your mouth</strong></h2>
+              <h2 class=" w-75 mx-auto" style="color: #428bca;" id="stepdet"><strong>Send an image of the inside of your mouth</strong></h2>
             </div>
             <div class="carousel-item text-center">
               <img class="d-block w-100" src="assets/img/mock4.png" alt="Third slide">
               <br>
-              <h2 class="text-primary w-75 mx-auto" id="stepdet"><strong>Get your report in 60 seconds</strong></h2>
+              <h2 class=" w-75 mx-auto" style="color: #428bca;" id="stepdet"><strong>Get your report in 60 seconds</strong></h2>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -659,6 +661,19 @@
     interval: 3000,
     cycle: true,
     pause: "null"
-})
+});
+</script>
+<script>
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 </script>
 </html>

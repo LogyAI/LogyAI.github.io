@@ -47,8 +47,34 @@
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="/articles">Articles</a></li> 
-              <li><a href="portal.html">Case Studies</a></li><li><a href="/publications">Publications</a></li>
+              <li><a href="/articles">Articles</a></li>
+              <li><a href="AutoML.html">AutoML</a></li>
+              <li>
+                <div class="md-form my-0 mx-3 ">
+                  <style>
+                    .dropdown:hover>.dropdown-menu {
+      display: block;
+    }
+    
+    .dropdown>.dropdown-toggle:active {
+      /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+    }
+    
+                  </style>
+                  <div class="dropdown">
+                    <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <b>PRODUCTS</b>
+                    </a>
+                    <div class="dropdown-menu text-dark" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item text-dark" href="myDentist.html">MYDENTIST</a>
+               
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <li><a href="/publications">Publications</a></li>
               <!-- <li><a href="index.html">About</a></li>
               <li><a href="mailto:humans@logy.ai">Jobs</a></li>
               <li><a href="mailto:humans@logy.ai">Contact</a></li>

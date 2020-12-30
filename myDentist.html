@@ -141,7 +141,7 @@
     }
 
     #testimage {
-      height: 200px;
+      height: 120px;
       object-fit: cover;
       object-position: center;
       border-radius: 20px;
@@ -154,6 +154,9 @@
     #topnam {
       font-size: 16px;
     }
+    #pcnodisplay{
+        display: none !important;
+      }
 
     @media screen and (max-width: 767px) {
       #topfet {
@@ -228,7 +231,10 @@
       #mobnotbr {
         display: none;
       }
-
+      #pcnodisplay{
+        display: block !important;
+        height: 30vh;
+      }
       #desch4 {
         font-size: 16px;
         text-align: justify;
@@ -280,10 +286,39 @@
 
           <form class="form-inline p-0 m-0">
             <div class="md-form my-0 mx-3 ">
-              <a href="https://logy.ai/" class="" style="font-weight:500 ;font-size: 12px;color: #5697d0;">HOME</a>
+              <a href="/index.html" class="" style="font-weight:500 ;font-size: 12px;color: #5697d0;">HOME</a>
             </div>
             <div class="md-form my-0 mx-3 ">
               <a href="/articles/" class="text-white" style="font-weight:500 ;font-size: 12px;">ARTICLES</a>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/AutoML.html" class="text-white" style="font-weight:500 ;font-size: 12px;">AUTOML</a>
+            </div>
+        
+            <div class="md-form my-0 mx-3 ">
+              <style>
+                .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+              </style>
+              <div class="dropdown">
+                <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>PRODUCTS</b>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="myDentist.html">MYDENTIST</a>
+           
+                </div>
+              </div>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/publications/" class="text-white" style="font-weight:500 ;font-size: 12px;">PUBLICATIONS</a>
             </div>
           </form>
         </div>
@@ -306,10 +341,8 @@
         <p>Powered by <strong> Logy.<span style="color: #428bca;">AI</span> </strong></p>
         <br>
 
-        <h4><strong>Chat with us to get your Oral Screening Reports within 2 Minutes.
-            <hr />Available on: <i style="color:green" class="fab fa-whatsapp" aria-hidden="true"></i> <i
-              style="color: #428bca;" class="fab fa-telegram" aria-hidden="true"></i> <i style="color: #428bca;"
-              class="fab fa-facebook-messenger" aria-hidden="true"></i>
+        <h4><strong>Know your oral hygiene in less than 2 Minutes.
+            <hr />
           </strong></h4>
       </div>
       <div class="col-md-4">
@@ -373,21 +406,23 @@
           <div class="row text-center">
             <div class="col-6 text-center">
               <div class="bg-primary text-center shadow mx-auto" id="topfet">
-                <br>
-                <i id="topicon" class="fab fa-whatsapp  text-white"></i>
-                <br>
-                <br>
-                <h5 id="topnam" class="w-75 mx-auto text-white"><strong>WhatsApp based App</strong></h5>
+            
+                <div class=" p-0 m-0 mt-3" style="font-weight: 600;color: #ffffff;font-size: 50px;" id="shiva"><span
+                    class="count mt-3">1000</span>
+                </div>
+                <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Tests completed </strong></h5>
               </div>
+              
             </div>
             <div class="col-6 text-center">
-              <div class="bg-primary text-center shadow mx-auto" id="topfet">
+              
+              <div class="bg-primary text-center shadow mx-auto mt-3" id="topfet">
                 <br>
                 <i id="topicon" class="far fa-clock  text-white"></i>
 
                 <br>
                 <br>
-                <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Done in 60 seconds</strong></h5>
+                <h5 id="topnam" class="w-100 mx-auto text-white"><strong>Do in less than 2 minutes</strong></h5>
               </div>
             </div>
           </div>
@@ -421,26 +456,26 @@
       <div class="row mt-2">
         <div class="col-6 text-center">
           <div class="bg-primary text-center shadow mx-auto" id="topfet">
-
-            <div class=" p-0 m-0 mt-3" style="font-weight: 600;color: #ffffff;" id="shiva"><span
-                class="count">1000</span>
+            
+            <div class=" p-0 m-0 mt-3" style="font-weight: 600;color: #ffffff;" id="">
+              
+              <i id="topicon" class="fas fa-file-alt text-white mt-3"></i>
             </div>
-            <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Tests completed </strong></h5>
+            <br>
+            <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Patent pending </strong></h5>
           </div>
         </div>
         <div class="col-6 text-center">
-
-          <div class="bg-primary text-center shadow mx-auto" id="topfet">
+          <div class="bg-primary text-center shadow mx-auto mt-3" id="topfet">
             <br>
-
-            <i id="topicon" class="fas fa-file-alt text-white"></i>
+            <i id="topicon" class="fab fa-whatsapp  text-white"></i>
             <br>
             <br>
-            <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Patent <br />Filed</strong></h5>
+            <h5 id="topnam" class="w-75 mx-auto text-white"><strong>WhatsApp based App</strong></h5>
           </div>
-
-
         </div>
+       
+        
       </div>
       <br>
 
@@ -455,13 +490,14 @@
 
         <div class="row mx-auto">
           <div class="col-2 ml-auto">
+            
             <div class="bg-primary text-center shadow mx-auto" id="topfet2">
-              <br>
-              <i id="topicon" class="fab fa-whatsapp  text-white"></i>
-              <br>
-              <br>
-              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>WhatsApp based App </strong></h5>
+              <div class=" p-0 m-0 mt-2" style="font-weight: 600;color: #ffffff;" id="shiva"><span
+                  class="count">1000</span></div>
+              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Tests completed </strong></h5>
             </div>
+
+
           </div>
           <div class="col-2">
             <div class="bg-primary text-center shadow mx-auto" id="topfet2">
@@ -469,7 +505,7 @@
               <i id="topicon" class="far fa-clock  text-white"></i>
               <br>
               <br>
-              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Done in 60 seconds </strong></h5>
+              <h5 id="topnam" class="w-100 mx-auto text-white"><strong>Do in less than 2 minutes </strong></h5>
             </div>
           </div>
           <div class="col-2">
@@ -490,13 +526,6 @@
               <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Accurate results </strong></h5>
             </div>
           </div>
-          <div class="col-2 mr-auto">
-            <div class="bg-primary text-center shadow mx-auto" id="topfet2">
-              <div class=" p-0 m-0 mt-2" style="font-weight: 600;color: #ffffff;" id="shiva"><span
-                  class="count">1000</span></div>
-              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Tests completed </strong></h5>
-            </div>
-          </div>
           <div class="col-2">
             <div class="bg-primary text-center shadow mx-auto" id="topfet2">
               <br>
@@ -504,8 +533,18 @@
               <i id="topicon" class="fas fa-file-alt text-white"></i>
               <br>
               <br>
-              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Patent <br />Filed</strong></h5>
+              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>Patent <br />pending</strong></h5>
             </div>
+          </div>
+          <div class="col-2 mr-auto">
+            <div class="bg-primary text-center shadow mx-auto" id="topfet2">
+              <br>
+              <i id="topicon" class="fab fa-whatsapp  text-white"></i>
+              <br>
+              <br>
+              <h5 id="topnam" class="w-75 mx-auto text-white"><strong>WhatsApp based App </strong></h5>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -529,46 +568,57 @@
       </div>
       <br>
       <br>
-      <div class="row mx-auto">
+      <div class="row mx-auto"  id="mobnotbr">
         <div class="col-md my-3 mx-auto">
           <div class="row mx-auto">
             <div class="col-md text-center ">
               
               <br />
-              <img id="partners" class="w-100"
-                src="https://logy.ai/assets/img/clients/iiith.png" alt=""><br />
+              <a href="https://saveethadental.com/">
+              <img id="partners" class="w-75"
+                src="https://static1.squarespace.com/static/57a6a44d2994ca6cbb9460b6/t/58628bd03e00be7ce7d25f33/1482853332847/SDC+LOGO.png?format=1500w" alt="" title="Saveetha Dental college and Hospital">
+              </a>
+              <br />
               
               </div>
 
             <div class="col-md text-center">
               <br />
               <br />
-              <img id="partners" class="w-50"
-                src="https://logy.ai/assets/img/clients/tides.png" alt="" title="IIT Roorkee | Tides">
+              <a href="https://diagnoshop.com/CenterListAction">
+              <img id="partners" class="w-75"
+                src="https://diagnoshop.com/images/dslogo_rgb3_rect.png" alt="" title="Diagnoshop">
+              </a>
                 <br />
               </div>
             <div class="col-md text-center">
               <br />
               <br />
-              <img id="partners" class="w-50"
-                src="https://logy.ai/assets/img/clients/36_inc.png" alt="">
-                <br />
+              <a href="https://oralcare.co.in/">
+              <img id="partners" class="w-75" title="oralcare"
+                src="data:image/png;base64,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" alt="">
+              </a>
+              <br />
               </div>
             <div class="col-md text-center">
               <br />
               <br />
-              <img id="partners" class="w-100"
-                src="https://diagnoshop.com/images/dslogo_rgb3_rect.png" alt="">
-                <br />
+              <a href="https://www.iiit.ac.in/">
+              <img id="partners" class="w-75" title="IIIT Hyderabad"
+                src="https://logy.ai/assets/img/clients/iiith.png" alt="">
+              </a>
+              <br />
               </div>
             <div class="col-md text-center">
               <br />
               <br />
-              <img id="partners" class="w-50"
-                src="https://www.iitr.ac.in/departments/CSE/uploads/Misc/IITR_logo/IITR_new_logo_color.jpg"
-                alt="">
-                <br />
-            </div>
+              <a href="http://tides.iitr.ac.in/">
+              <img id="partners" class="w-50" title="Tides | IIT Roorkee"
+                src="https://logy.ai/assets/img/clients/tides.png" alt="">
+              </a>
+              <br />
+              </div>
+            
           </div>
         </div>
         <!-- <div class="col-md-6 my-3">
@@ -583,6 +633,63 @@
           </div>
         </div> -->
 
+      </div>
+      <div class="" id="pcnodisplay">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <br>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <a href="https://saveethadental.com/">
+              <img class="d-block w-50 mx-auto" src="https://static1.squarespace.com/static/57a6a44d2994ca6cbb9460b6/t/58628bd03e00be7ce7d25f33/1482853332847/SDC+LOGO.png?format=1500w"
+                alt="First slide">
+              </a>
+              <br>
+            </div>
+            <div class="carousel-item text-center">
+              <a href="https://diagnoshop.com/CenterListAction">
+              <img class="d-block w-50 mx-auto" src="https://diagnoshop.com/images/dslogo_rgb3_rect.png"
+                alt="Second slide">
+              </a>
+              <br>
+            </div>
+            <div class="carousel-item text-center">
+              <a href="https://oralcare.co.in/">
+              <img class="d-block w-50 mx-auto" src="data:image/png;base64,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"
+                alt="third slide">
+              </a>
+              <br>
+            </div>
+            <div class="carousel-item text-center">
+              <a href="https://www.iiit.ac.in/">
+              <img class="d-block w-50 mx-auto" src="https://logy.ai/assets/img/clients/iiith.png"
+                alt="Second slide">
+              </a>
+              <br>
+            </div>
+            <div class="carousel-item text-center">
+              <a href="http://tides.iitr.ac.in/">
+              <img class="d-block w-50 mx-auto" src="https://logy.ai/assets/img/clients/tides.png"
+                alt="Second slide">
+              </a>
+              <br>
+            </div>
+  
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
       <br>
       <br id="mobnotbr">
@@ -794,7 +901,7 @@
 
         <h3 style="color: #428bca;font-weight: 700;">API</h3>
         <br>
-        <p class="w-75 mx-auto" style="text-align: center;"><strong>Integrate Mydentist.AI in your workflow in a
+        <p class="w-75 mx-auto" style="text-align: center;"><strong>Integrate Mydentist.AI to your workflow in a
             jiff.</strong> </p>
       </div>
       <div class="col-md-3 text-center">
@@ -804,7 +911,7 @@
         <br>
         <h3 style="color: #428bca;font-weight: 700;">WebApp</h3>
         <br>
-        <p class="w-75 mx-auto" style="text-align: center ;"><strong>Exerience our AI powered user interface on the
+        <p class="w-75 mx-auto" style="text-align: center ;"><strong>Experience our AI powered user interface on the
             web.</strong>
         </p>
       </div>
@@ -816,10 +923,7 @@
         <br>
         <h3 style="color: #428bca;font-weight: 700;"> ChatBot</h3>
         <br>
-        <p class="w-75 mx-auto" style="text-align: center"><strong>Diagnose your Orla-Health on WhatsApp, Telegram and
-            Messenger. <br /><i style="color:green" class="fab fa-whatsapp" aria-hidden="true"></i> <i
-              style="color: #428bca;" class="fab fa-telegram" aria-hidden="true"></i> <i style="color: #428bca;"
-              class="fab fa-facebook-messenger" aria-hidden="true"></i> </strong></p>
+        <p class="w-75 mx-auto" style="text-align: center"><strong>Diagnose your Oral-Health on WhatsApp <br /><i style="color:green" class="fab fa-whatsapp" aria-hidden="true"></i>  </strong></p>
       </div>
       <div class="col-md-3 mr-auto text-center">
         <br>
@@ -830,12 +934,86 @@
         <h3 style="color: #428bca;font-weight: 700;">Tele-Dentistry Module</h3>
         <br>
         <p class="w-75 mx-auto" style="text-align: center;"><strong>Get expert opinion of Professional Dentists with a
-            few cick.</strong></p>
+            few clicks.</strong></p>
       </div>
 
     </div>
   </div>
+  <div class="container">
+    <br>
+    <br>
+    <br id="mobnotbr">
+    <br id="mobnotbr">
+    <br id="mobnotbr">
+    <br id="mobnotbr">
+    <div class="text-center">
 
+      <h2 class=""><Strong>Our Studies</Strong></h2>
+      <br>
+      <div class="w-25 mx-auto" style="height: 2px;background: #000;"></div>
+      <br id="mobnotbr">
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div id="carouselExampleIndicators" class="carousel " data-ride="carousel">
+          <br>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img class="d-block w-75 mx-auto" src="assets/img/studies/img1.jpeg"
+                alt="First slide">
+              <br>
+            </div>
+            <div class="carousel-item text-center">
+              <img class="d-block w-75 mx-auto" src="assets/img/studies/img2.jpeg"
+                alt="Second slide">
+              <br>
+            </div>
+            <div class="carousel-item text-center">
+              <img class="d-block w-75 mx-auto" src="assets/img/studies/img3.jpeg"
+                alt="third slide">
+              <br>
+            </div>
+            
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <br>
+        <h4 class="mt-3"><strong>Studies Done in</strong></h4>
+        <p>Our team at MyDentist.AI has tested the product and made conclusive studies proving the accuracy of the application</p>
+        <br>
+        <br id="mobnotbr">
+        <div class="row">
+          <div class="col-6">
+            <h5><strong>INDIA</strong></h5>
+            <br>
+            <br id="mobnotbr">
+            <img class="w-75" src="assets/img/studies/indiax.svg" alt="">
+          </div>
+          <div class="col-6">
+            <h5><strong>KENYA</strong></h5>
+            <br>
+            <br id="mobnotbr">
+            <img class="w-50" src="assets/img/studies/kenyax.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="">
     <div class="container mb-0 text-center">
@@ -848,64 +1026,45 @@
       <br>
       <div class="row mb-0 mt-md-5">
 
-        <div class="col-md-6 mb-0">
+        <div class="col-md mb-0 mx-auto">
           <div class="row mt-4">
             <div class="col-4">
-              <img id="testimage" class="w-100" src="assets/img/testimonials/nivedita.jpeg" alt="">
+              <img id="testimage" class="w-100" src="assets/img/testimonials/1594890221037.jpg" alt="">
             </div>
-            <div class="col-8 text-dark pt-md-4">
-
-              <h6 class="">Dr Nivedita Tiwari <span class="small">BDS</span></h6>
-              <p>" It work pretty well. "
+            <div class="col-8 text-dark pt-md-4 text-left">
+              <h6 class="">Dr. Melvin, <span class="small">Dentist, Africa</span></h6>
+              <p>" This tool shall be very useful for mass-screening. "
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-0">
+        <div class="col-md mb-0 mx-auto">
           <div class="row mt-4">
             <div class="col-4">
-              <img id="testimage" class="w-100"
-                src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt="">
+              <img id="testimage" class="w-100" src="assets/img/testimonials/1605794016638.jpg " alt="">
             </div>
-            <div class="col-8 text-dark pt-md-4">
-
-              <h6 class="">Name Surname, <span class="small">title</span></h6>
-              <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "
+            <div class="col-8 text-dark pt-md-4 text-left">
+              <h6 class="">Mrs. Sarojini, <span class="small">PhD student, USA</span></h6>
+              <p>" MyDentist.AI made me aware that I had calculus in my teeth. "
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-0">
+        <div class="col-md mb-0 mx-auto">
           <div class="row mt-4">
             <div class="col-4">
-              <img id="testimage" class="w-100"
-                src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt="">
+              <img id="testimage" class="w-100" src="assets/img/testimonials/1563736204462.jpg" alt="">
             </div>
-            <div class="col-8 text-dark pt-md-4">
-
-              <h6 class="">Name Surname, <span class="small">title</span></h6>
-              <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "
+            <div class="col-8 text-dark pt-md-4 text-left">
+              <h6 class="">Sourya, <span class="small">MBA student, India</span></h6>
+              <p>"Helped me became aware of my oral health in just minutes. "
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-0">
-          <div class="row mt-4">
-            <div class="col-4">
-              <img id="testimage" class="w-100"
-                src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt="">
-            </div>
-            <div class="col-8 text-dark pt-md-4">
-
-              <h6 class="">Name Surname, <span class="small">title</span></h6>
-              <p>" I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad "
-              </p>
-            </div>
-          </div>
-        </div>
+        
+        
+       
 
       </div>
       <br>
@@ -1032,9 +1191,7 @@
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold" id="foothot">Useful links</h6>
           <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a class="text-primary" id="footbot" href="https://logy.ai/dentalai_pricing.html">DentalAI Pricing</a>
-          </p>
+          
           <p>
             <a class="text-primary" id="footbot" href="https://logy.ai/privacy.html">Privacy Policy</a>
           </p>

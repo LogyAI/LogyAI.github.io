@@ -288,12 +288,8 @@
             <div class="md-form my-0 mx-3 ">
               <a href="/index.html" class="" style="font-weight:500 ;font-size: 12px;color: #5697d0;">HOME</a>
             </div>
-            <div class="md-form my-0 mx-3 ">
-              <a href="/articles/" class="text-white" style="font-weight:500 ;font-size: 12px;">ARTICLES</a>
-            </div>
-            <div class="md-form my-0 mx-3 ">
-              <a href="/AutoML.html" class="text-white" style="font-weight:500 ;font-size: 12px;">AUTOML</a>
-            </div>
+            
+            
         
             <div class="md-form my-0 mx-3 ">
               <style>
@@ -308,14 +304,20 @@
 
               </style>
               <div class="dropdown">
-                <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;background: #212121 !important;color: white !important;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <b>PRODUCTS</b>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="myDentist.html">MYDENTIST</a>
+                  <a class="dropdown-item" href="/myDentist.html">MYDENTIST</a>
            
                 </div>
               </div>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/AutoML.html" class="text-white" style="font-weight:500 ;font-size: 12px;">AUTOML</a>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/articles/" class="text-white" style="font-weight:500 ;font-size: 12px;">ARTICLES</a>
             </div>
             <div class="md-form my-0 mx-3 ">
               <a href="/publications/" class="text-white" style="font-weight:500 ;font-size: 12px;">PUBLICATIONS</a>
@@ -342,8 +344,80 @@
         <br>
 
         <h4><strong>Know your oral hygiene in less than 2 Minutes.
-            <hr />
+            
           </strong></h4>
+          <br>
+          <br>
+          <a style="background: #428bca;" data-toggle="modal" data-target="#myModal"
+                            class="btn-get-started animated fadeInUp scrollto px-3 py-2 text-white rounded-pill">Try a Demo</a>
+          <hr />
+          <!--modal area start-->
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Try a Demo</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="icon-small">
+                                    <i class="fa fa-whatsapp" style="font-size:35px;color:green"></i>
+                                    <h4>+91 70019 72016</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-md-8">
+                                <div class="icon-small">
+                                    <i class="fa fa-envelope " style="font-size:35px;color:orange"></i>
+                                    <h4><a href="mailto:humans@logy.ai">humans@logy.ai</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <form action="https://formspree.io/mjvalebe" method="POST">
+                            <p class="mb-4">Welcome to Logy.AI. We will reply as soon as possible!</p>
+                            <div class="form-group ">
+                                <div class="row">
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text" name="name" placeholder="Name*"
+                                        required="" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="email" name="_replyto"
+                                        placeholder="E-mail Address*" required="" />
+                                </div>
+
+                            </div>
+                            <br/>
+                                <div class="row">
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text" name="phone"
+                                        placeholder="Contact Number" required="" />
+                                </div>
+                                <br/>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text" name="organisation"
+                                        placeholder="Organisation name" required="" />
+                                </div>
+                            </div>
+                            </div>
+                            <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*"
+                                required=""></textarea>
+                            
+                            <input class="btn btn-primary" type="submit" value="Send" />
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+          <!--modal area end-->
       </div>
       <div class="col-md-4">
         <br id="mobnotbr">
@@ -1172,10 +1246,17 @@
           <h6 class="text-uppercase font-weight-bold" id="foothot">Products</h6>
           <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a class="text-primary" id="footbot" href="https://logy.ai/portal.html">Dental AI</a>
+            <a class="text-primary" id="footbot" href="https://logy.ai/myDentist.html">MyDentist.AI</a>
+          </p>
+          <p >
+            <a class="text-primary" id="footbot" href="/AutoML.html">AutoML</a>
+          </p>
+          
+          <p>
+              <a class="text-primary" id="footbot" href="https://portal.logy.ai">AutoML Platform</a>
           </p>
           <p>
-            <a class="text-primary" id="footbot" href="https://portal.logy.ai/">AutoML Platform</a>
+                    <a class="text-primary" id="footbot" href="https://logy.ai/documentation">API Documentation</a>
           </p>
           <!--  <p>
                   <a href="#!">Pricing</a>

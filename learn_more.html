@@ -86,7 +86,6 @@
         #start5,#start6 ,#start7,#start8,#destination5,#destination6,#destination7,#destination8{
         display: none;
       }
-      #destination3{}
         @keyframes floating {
       from {
         transform: translate(0, 0px);
@@ -144,75 +143,71 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="sticky-top ">
-        <div class="container-fluid">
-
-            <div class="row justify-content-center">
-                <div class="col-xl-10 d-flex align-items-center justify-content-end">
-
-                    <!-- Uncomment below if you prefer to use an image logo -->
-                    <a href="/index.html" class="logo mr-auto"><span style="color: white;">Logy.</span>AI</a>
-
-                    <nav class="nav-menu d-none d-lg-block">
-                      <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="/articles">Articles</a></li>
-                        <li><a href="AutoML.html">AutoML</a></li>
-                        <li>
-                          <div class="md-form my-0 mx-3 ">
-                            <style>
-                              .dropdown:hover>.dropdown-menu {
-                display: block;
-              }
-              
-              .dropdown>.dropdown-toggle:active {
-                /*Without this, clicking will make it sticky*/
-                  pointer-events: none;
-              }
-              
-                            </style>
-                            <div class="dropdown">
-                              <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               <b>PRODUCTS</b> 
-                              </a>
-                              <div class="dropdown-menu text-dark" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item text-dark" href="myDentist.html">MYDENTIST</a>
-                         
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        
-                        <li><a href="/publications">Publications</a></li>
-                        <!-- <li><a href="index.html">About</a></li>
-                        <li><a href="mailto:humans@logy.ai">Jobs</a></li>
-                        <li><a href="mailto:humans@logy.ai">Contact</a></li>
-                        <li><a href="mailto:humans@logy.ai">Report an Issue</a></li> -->
-                        <!-- <li class="drop-down"><a href="">Login</a>
-                          <ul class="rounded">
-                            <form method="post" class="mx-4" action="/accounts/login/">
-                              <input type="hidden" name="csrfmiddlewaretoken" value="arEuQkX4qlx5fcILYoZxYKSqB6jwYEQL0ijUf3qF0ocp5dEmt5aEsTEV5xkm5JaL">
-                              <div class="form-row mt-4 mb-4">
-                                <input class="bottom-border-input" type="text" name="username" placeholder="Username" autofocus required id="id_username"></p>
-                              </div>
-                              <div class="form-row mt-4 mb-4">
-                                <input class="bottom-border-input" type="password" name="password" placeholder="Password" required id="id_password"></p>
-                              </div>
-                              <div class="form-row">
-                                <button  class="btn btn-primary" type="submit">Login</button>
-                              </div>
-                            </form>
-                          </ul>
-                        </li> -->
-                      </ul>
-                    </nav>
-                    <!-- .nav-menu -->
-
-                </div>
-            </div>
+    <header id="header" class="fixed-top ">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-xl-10 d-flex align-items-center justify-content-end">
+  
+            <a href="/index.html" class="logo mr-auto"><span style="color: white;">Logy.</span>AI</a>
+  
+            <nav class="nav-menu d-none d-lg-block">
+              <ul>
+                <li class="active"><a href="/index.html">Home</a></li>
+                
+                <li>
+                  <div class="md-form my-0 mx-3 ">
+                    <style>
+                      .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+          pointer-events: none;
+      }
+      
+                    </style>
+                    <div class="dropdown">
+                      <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;background: none !important;color: white !important;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>PRODUCTS</b>
+                      </a>
+                      <div class="dropdown-menu text-dark" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item text-dark" href="myDentist.html">MYDENTIST</a>
+                 
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="/AutoML.html">AutoML</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/publications">Publications</a></li>
+                <!-- <li><a href="index.html">About</a></li>
+                <li><a href="mailto:humans@logy.ai">Jobs</a></li>
+                <li><a href="mailto:humans@logy.ai">Contact</a></li>
+                <li><a href="mailto:humans@logy.ai">Report an Issue</a></li> -->
+                <!-- <li class="drop-down"><a href="">Login</a>
+                  <ul class="rounded">
+                    <form method="post" class="mx-4" action="/accounts/login/">
+                      <input type="hidden" name="csrfmiddlewaretoken" value="arEuQkX4qlx5fcILYoZxYKSqB6jwYEQL0ijUf3qF0ocp5dEmt5aEsTEV5xkm5JaL">
+                      <div class="form-row mt-4 mb-4">
+                        <input class="bottom-border-input" type="text" name="username" placeholder="Username" autofocus required id="id_username"></p>
+                      </div>
+                      <div class="form-row mt-4 mb-4">
+                        <input class="bottom-border-input" type="password" name="password" placeholder="Password" required id="id_password"></p>
+                      </div>
+                      <div class="form-row">
+                        <button  class="btn btn-primary" type="submit">Login</button>
+                      </div>
+                    </form>
+                  </ul>
+                </li> -->
+              </ul>
+            </nav>
+          </div>
         </div>
-
+      </div>
     </header>
+
     <div class="container">
         
     </div>
@@ -508,7 +503,7 @@
             </div>
             <div class="text-center mb-4">
 
-              <a href="AutoML.html" class="text-center text-white bg-info px-3 py-2 rounded-pill">AutoML</a>
+              <a href="/AutoML.html" class="text-center text-white bg-info px-3 py-2 rounded-pill">AutoML</a>
             </div>
           </div>
         </div>
@@ -937,12 +932,17 @@
                     <h6 class="text-uppercase font-weight-bold">Products</h6>
                     <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                      <a href="AutoML.html">AutoML</a>
+                      <a class="" id="footbot" href="https://logy.ai/myDentist.html">MyDentist.AI</a>
                     </p>
                     <p>
+                      <a href="/AutoML.html">AutoML</a>
+                    </p>
+                    
+                    <p>
                         <a href="https://portal.logy.ai">AutoML Platform</a>
-                    </p><p>
-                              <a class="text-primary" id="footbot" href="https://logy.ai/documentation">API Documentation</a>
+                    </p>
+                    <p>
+                              <a class="" id="footbot" href="https://logy.ai/documentation">API Documentation</a>
                           </p>
                   <!--  <p>
                         <a href="#!">Pricing</a>
@@ -960,10 +960,10 @@
                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     
                     <p>
-                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="/privacy.html">Privacy Policy</a>
                     </p>
                     <p>
-                        <a href="terms_and_conditions.html">Terms and Conditions / Cancellation Policy</a>
+                        <a href="/terms_and_conditions.html">Terms and Conditions / Cancellation Policy</a>
                     </p>
                     
                     

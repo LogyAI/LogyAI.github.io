@@ -23,7 +23,7 @@
 
   <link href="assets/css/style2.css" rel="stylesheet">
 
-  <title>Logy.AI | AI powered Healthcare</title>
+  <title>Logy.AI | AutoML</title>
   <link rel="icon" href="assets/img/favicon-32x32.png" type="image/png" sizes="32x32">
 
   <script src="./Logy.AI _ AI powered Healthcare_files/core.js"></script>
@@ -74,70 +74,77 @@
 </head>
 
 <body>
-  <header id="header" class="fixed-top ">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-xl-10 d-flex align-items-center justify-content-end">
+  <nav class="sticky-top">
 
-          <a href="/index.html" class="logo mr-auto"><span style="color: white;">Logy.</span>AI</a>
+    <nav class="navbar navbar-expand-lg navbar-dark "
+      style="box-shadow: none;border-bottom: solid 5px rgb(53, 138, 235);background: rgba(0, 0, 0);">
+      <div class="container ">
 
-          <nav class="nav-menu d-none d-lg-block">
-            <ul>
-              <li class="active"><a href="/index.html">Home</a></li>
-              
-              <li>
-                <div class="md-form my-0 mx-3 ">
-                  <style>
-                    .dropdown:hover>.dropdown-menu {
-      display: block;
-    }
-    
-    .dropdown>.dropdown-toggle:active {
-      /*Without this, clicking will make it sticky*/
-        pointer-events: none;
-    }
-    
-                  </style>
-                  <div class="dropdown">
-                    <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;background: none !important;color: white !important;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <b>PRODUCTS</b>
-                    </a>
-                    <div class="dropdown-menu text-dark" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item text-dark" href="myDentist.html">MYDENTIST</a>
-               
-                    </div>
-                  </div>
+        <!-- Navbar brand -->
+        <a class="navbar-brand p-0" href="https://logy.ai/"
+          style="font-family: 'Poppins', sans-serif;font-weight: 600;font-size: 30px;">Logy.<span
+            style="color: #428bca;">AI</span></a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="mr-auto"></ul>
+          <!-- Links -->
+
+          <form class="form-inline p-0 m-0">
+            <div class="md-form my-0 mx-3 ">
+              <a href="/index.html" class="" style="font-weight:500 ;font-size: 12px;color: #5697d0;">HOME</a>
+            </div>
+            
+            
+        
+            <div class="md-form my-0 mx-3 ">
+              <style>
+                .dropdown:hover>.dropdown-menu {
+                    display: block;
+                    }
+                    
+                    .dropdown>.dropdown-toggle:active {
+                    /*Without this, clicking will make it sticky*/
+                        pointer-events: none;
+                    }
+                    .navbar-dark .navbar-toggler {
+                        border: none;
+                    }
+              </style>
+              <div class="dropdown">
+                <a class=" text-white dropdown-toggle" style="font-weight:500 ;font-size: 12px;color: white !important;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUCTS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/myDentist.html">MYDENTIST</a>
+           
                 </div>
-              </li>
-              <li><a href="/AutoML.html">AutoML</a></li>
-              <li><a href="/articles">Articles</a></li>
-              <li><a href="/publications">Publications</a></li>
-              <!-- <li><a href="index.html">About</a></li>
-              <li><a href="mailto:humans@logy.ai">Jobs</a></li>
-              <li><a href="mailto:humans@logy.ai">Contact</a></li>
-              <li><a href="mailto:humans@logy.ai">Report an Issue</a></li> -->
-              <!-- <li class="drop-down"><a href="">Login</a>
-                <ul class="rounded">
-                  <form method="post" class="mx-4" action="/accounts/login/">
-                    <input type="hidden" name="csrfmiddlewaretoken" value="arEuQkX4qlx5fcILYoZxYKSqB6jwYEQL0ijUf3qF0ocp5dEmt5aEsTEV5xkm5JaL">
-                    <div class="form-row mt-4 mb-4">
-                      <input class="bottom-border-input" type="text" name="username" placeholder="Username" autofocus required id="id_username"></p>
-                    </div>
-                    <div class="form-row mt-4 mb-4">
-                      <input class="bottom-border-input" type="password" name="password" placeholder="Password" required id="id_password"></p>
-                    </div>
-                    <div class="form-row">
-                      <button  class="btn btn-primary" type="submit">Login</button>
-                    </div>
-                  </form>
-                </ul>
-              </li> -->
-            </ul>
-          </nav>
+              </div>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/AutoML.html" class="text-white" style="font-weight:500 ;font-size: 12px;">AUTOML</a>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/articles/" class="text-white" style="font-weight:500 ;font-size: 12px;">ARTICLES</a>
+            </div>
+            <div class="md-form my-0 mx-3 ">
+              <a href="/publications/" class="text-white" style="font-weight:500 ;font-size: 12px;">PUBLICATIONS</a>
+            </div>
+          </form>
         </div>
+        <!-- Collapsible content -->
+
       </div>
-    </div>
-  </header>
+    </nav>
+  </nav>
 
   <section class="mb-1" id="hero" style="background-image: url(assets/img/1398312.jpg)">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">

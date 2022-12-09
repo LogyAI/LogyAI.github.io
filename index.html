@@ -375,21 +375,73 @@
         <br>
         <!-- End Contact Section -->
         <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
+       <!--modal area start-->
+       <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Contact Sales</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <iframe class="w-100" src="https://docs.google.com/forms/d/e/1FAIpQLSeYJ3jdICS7KgDHZ007Ieqz5RtyxcPRymXS21-MOlG2leXalA/viewform?embedded=true" width="640" height="1082" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Try Now</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-body">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="icon-small">
+                                <i hidden class="fa fa-whatsapp" style="font-size:35px;color:green"></i>
+                                <h4 hidden></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-md-8">
+                            <div class="icon-small">
+                                <i class="fa fa-envelope " style="font-size:35px;color:orange"></i>
+                                <h4><a href="mailto:humans@logy.ai">humans@logy.ai</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <form action="https://formspree.io/mjvalebe" method="POST">
+                        <p class="mb-4">Welcome to Logy.AI. We will reply as soon as possible!</p>
+                        <div class="form-group ">
+                            <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="name" placeholder="Name*"
+                                    required="" />
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" type="email" name="_replyto"
+                                    placeholder="E-mail Address*" required="" />
+                            </div>
+
+                        </div>
+                        <br/>
+                            <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="phone"
+                                    placeholder="Contact Number" required="" />
+                            </div>
+                            <br/>
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="organisation"
+                                    placeholder="Organisation name" required="" />
+                            </div>
+                        </div>
+                        </div>
+                        <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*"
+                            required=""></textarea>
+                        
+                        <input class="btn btn-primary" type="submit" value="Send" />
+                    </form>
                 </div>
             </div>
+            <div class="modal-footer">
+            </div>
         </div>
+    </div>
+      <!--modal area end-->
         </div>
     </main>
     <!-- End #main -->

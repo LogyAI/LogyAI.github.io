@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.6692b25e.css",
-    "main.js": "/logy/static/js/main.cb2cea4d.js",
+    "main.js": "/logy/static/js/main.4dbf88d7.js",
     "static/media/logyanim.gif": "/logy/static/media/logyanim.723301ae925492376c3a.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -35,6 +35,7 @@
     "static/media/colgate_t.png": "/logy/static/media/colgate_t.3840b993ce6c908b2516.png",
     "static/media/dainikbhaskar.png": "/logy/static/media/dainikbhaskar.99b7a735cdd477e258df.png",
     "static/media/Apollo-Clinic.png": "/logy/static/media/Apollo-Clinic.5b1d27b87e41a6aa67e2.png",
+    "static/media/articleImage3.jpeg": "/logy/static/media/articleImage3.7847372792986ca22dc2.jpeg",
     "static/media/Dr. Agarwals.png": "/logy/static/media/Dr. Agarwals.1a82a55cf9845f1de242.png",
     "static/media/aboutusnumbers.svg": "/logy/static/media/aboutusnumbers.bbadaf516877b808543b4bd4eb9b71de.svg",
     "static/media/sharpsight_t.png": "/logy/static/media/sharpsight_t.b0554afd29ebed450a98.png",
@@ -62,10 +63,10 @@
     "static/media/fb.svg": "/logy/static/media/fb.946ec2d8104097c73520da7b5b65eda2.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
     "main.6692b25e.css.map": "/logy/static/css/main.6692b25e.css.map",
-    "main.cb2cea4d.js.map": "/logy/static/js/main.cb2cea4d.js.map"
+    "main.4dbf88d7.js.map": "/logy/static/js/main.4dbf88d7.js.map"
   },
   "entrypoints": [
     "static/css/main.6692b25e.css",
-    "static/js/main.cb2cea4d.js"
+    "static/js/main.4dbf88d7.js"
   ]
 }

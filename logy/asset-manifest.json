@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.6692b25e.css",
-    "main.js": "/logy/static/js/main.018d6222.js",
+    "main.js": "/logy/static/js/main.eaea46ac.js",
     "static/media/finalanimation.gif": "/logy/static/media/finalanimation.000e100d2035542470df.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -30,7 +30,6 @@
     "static/media/Cartula Health.png": "/logy/static/media/Cartula Health.4368356ce170b5b96c32.png",
     "static/media/Apollo Dental.png": "/logy/static/media/Apollo Dental.c986fbe1e6b98fbd2c19.png",
     "static/media/Apollo-Clinic_t.png": "/logy/static/media/Apollo-Clinic_t.3281f5189cde4579a7ac.png",
-    "static/media/mplier.png": "/logy/static/media/mplier.7af6d65f9f90aeada34e.png",
     "static/media/iso_certification.png": "/logy/static/media/iso_certification.0db990a9c89c2c4e3c76.png",
     "static/media/mobident.png": "/logy/static/media/mobident.5defa89af1318b60b2ba.png",
     "static/media/colgate_t.png": "/logy/static/media/colgate_t.3840b993ce6c908b2516.png",
@@ -38,7 +37,6 @@
     "static/media/Apollo-Clinic.png": "/logy/static/media/Apollo-Clinic.5b1d27b87e41a6aa67e2.png",
     "static/media/articleImage3.jpeg": "/logy/static/media/articleImage3.7847372792986ca22dc2.jpeg",
     "static/media/Dr. Agarwals.png": "/logy/static/media/Dr. Agarwals.1a82a55cf9845f1de242.png",
-    "static/media/aboutusnumbers.svg": "/logy/static/media/aboutusnumbers.bbadaf516877b808543b4bd4eb9b71de.svg",
     "static/media/sharpsight_t.png": "/logy/static/media/sharpsight_t.b0554afd29ebed450a98.png",
     "static/media/blog5.png": "/logy/static/media/blog5.0e46dab39076483d24bb.png",
     "static/media/cdot_logo.png": "/logy/static/media/cdot_logo.ccb4505b33d554a2623a.png",
@@ -50,23 +48,23 @@
     "static/media/BIRAC.png": "/logy/static/media/BIRAC.ec0b97631575a526d297.png",
     "static/media/nimr.png": "/logy/static/media/nimr.8424298bbd08e9edc069.png",
     "static/media/iitb.png": "/logy/static/media/iitb.75ba8e1895d71d63b735.png",
-    "static/media/LogoFree.svg": "/logy/static/media/LogoFree.ce6822ec19fd926a1cfab4e83088331f.svg",
-    "static/media/linkedin.svg": "/logy/static/media/linkedin.7ea38b8a7e11e2d79f014bdc8e296b39.svg",
-    "static/media/eyescans.svg": "/logy/static/media/eyescans.72950f953d64c80336ec3e670d17b879.svg",
-    "static/media/wtsapp.svg": "/logy/static/media/wtsapp.70858083eef780ad810fcc858eb81826.svg",
-    "static/media/time.svg": "/logy/static/media/time.ab1541c9535e51268deb4c66e0047f17.svg",
-    "static/media/iconlogo.svg": "/logy/static/media/iconlogo.3b42ed61956a9411eb3553f7fc221ec8.svg",
-    "index.html": "logy/index.html",
-    "static/media/accuracy.svg": "/logy/static/media/accuracy.ac340b62e8533f8b62764a95a80a9022.svg",
-    "static/media/eyeIcon.svg": "/logy/static/media/eyeIcon.df5a302f908b90b6a142224daac06112.svg",
-    "static/media/fb.svg": "/logy/static/media/fb.946ec2d8104097c73520da7b5b65eda2.svg",
+    "static/media/LogoFree.svg": "/logy/static/media/LogoFree.fbe31b872b6dfb4426a93dc716d1e979.svg",
+    "static/media/linkedin.svg": "/logy/static/media/linkedin.14e4ce8cc84ec2d14321c3b78e4fab6a.svg",
+    "static/media/eyescans.svg": "/logy/static/media/eyescans.576c088b0fc924653ad3ef8f7464096f.svg",
+    "static/media/wtsapp.svg": "/logy/static/media/wtsapp.5576fc7980678cd275993c5a2bf39f28.svg",
+    "static/media/time.svg": "/logy/static/media/time.d892235d1dc3a5c691acc75310234505.svg",
+    "static/media/iconlogo.svg": "/logy/static/media/iconlogo.975a92eadc2e1e7d1e147d0982f52dc9.svg",
+    "index.html": "/logy/index.html",
+    "static/media/accuracy.svg": "/logy/static/media/accuracy.384d1bf88c625d8c692c3fbfecf79146.svg",
+    "static/media/eyeIcon.svg": "/logy/static/media/eyeIcon.6f64fa583d7d2a0643af39efd534510a.svg",
+    "static/media/fb.svg": "/logy/static/media/fb.0d8c9b7c6d7d4c2dc53f119eeba7347e.svg",
     "static/media/linkedin2.svg": "/logy/static/media/linkedin2.fd9e42980a314c0ab7ddcc9967529150.svg",
-    "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
+    "static/media/scans.svg": "/logy/static/media/scans.ce5ca85460a17e5fb9b2e21128381faa.svg",
     "main.6692b25e.css.map": "/logy/static/css/main.6692b25e.css.map",
-    "main.018d6222.js.map": "/logy/static/js/main.018d6222.js.map"
+    "main.eaea46ac.js.map": "/logy/static/js/main.eaea46ac.js.map"
   },
   "entrypoints": [
     "static/css/main.6692b25e.css",
-    "static/js/main.018d6222.js"
+    "static/js/main.eaea46ac.js"
   ]
 }

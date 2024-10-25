@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.b9fef4c0.css",
-    "main.js": "/logy/static/js/main.0d875928.js",
+    "main.js": "/logy/static/js/main.83bad846.js",
     "static/media/finalanimation.gif": "/logy/static/media/finalanimation.000e100d2035542470df.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -63,10 +63,10 @@
     "static/media/linkedin2.svg": "/logy/static/media/linkedin2.fd9e42980a314c0ab7ddcc9967529150.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
     "main.b9fef4c0.css.map": "/logy/static/css/main.b9fef4c0.css.map",
-    "main.0d875928.js.map": "/logy/static/js/main.0d875928.js.map"
+    "main.83bad846.js.map": "/logy/static/js/main.83bad846.js.map"
   },
   "entrypoints": [
     "static/css/main.b9fef4c0.css",
-    "static/js/main.0d875928.js"
+    "static/js/main.83bad846.js"
   ]
 }

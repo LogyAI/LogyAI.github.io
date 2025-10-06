@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/logy/static/css/main.b9fef4c0.css",
-    "main.js": "/logy/static/js/main.83bad846.js",
+    "main.css": "/logy/static/css/main.9300df53.css",
+    "main.js": "/logy/static/js/main.2706d6c2.js",
     "static/media/finalanimation.gif": "/logy/static/media/finalanimation.000e100d2035542470df.gif",
-    "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
     "static/media/Anand Panchbhai.png": "/logy/static/media/Anand Panchbhai.a0f38d38e5024ec1e4c8.png",
     "static/media/eyeHead.png": "/logy/static/media/eyeHead.76aa1458ab3e3aa7e4ad.png",
@@ -21,7 +20,6 @@
     "static/media/NavbarLogo.png": "/logy/static/media/NavbarLogo.7da42bda8cbd0bc2d168.png",
     "static/media/Apollo sugar clinic.png": "/logy/static/media/Apollo sugar clinic.7385d25865e2cf8f26b8.png",
     "static/media/vidisha1.pdf": "/logy/static/media/vidisha1.271ee3dcc9e9ee324350.pdf",
-    "static/media/LogyAI Terms & Conditions.pdf": "/logy/static/media/LogyAI Terms & Conditions.641bc859e38400167f19.pdf",
     "static/media/edexlive.png": "/logy/static/media/edexlive.c3da54407309aa1c8488.png",
     "static/media/nigeria1.pdf": "/logy/static/media/nigeria1.2f8fc189d1b99c7bb2cd.pdf",
     "static/media/blog4.png": "/logy/static/media/blog4.a91066c9715d49c745dd.png",
@@ -62,11 +60,11 @@
     "static/media/fb.svg": "/logy/static/media/fb.946ec2d8104097c73520da7b5b65eda2.svg",
     "static/media/linkedin2.svg": "/logy/static/media/linkedin2.fd9e42980a314c0ab7ddcc9967529150.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
-    "main.b9fef4c0.css.map": "/logy/static/css/main.b9fef4c0.css.map",
-    "main.83bad846.js.map": "/logy/static/js/main.83bad846.js.map"
+    "main.9300df53.css.map": "/logy/static/css/main.9300df53.css.map",
+    "main.2706d6c2.js.map": "/logy/static/js/main.2706d6c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9fef4c0.css",
-    "static/js/main.83bad846.js"
+    "static/css/main.9300df53.css",
+    "static/js/main.2706d6c2.js"
   ]
 }
